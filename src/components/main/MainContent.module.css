@@ -1,0 +1,112 @@
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10;
+
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+.mainContentTexts {
+    margin: 0 .875rem;
+}
+
+.mainContentTexts h1 {
+    color: var(--gray-400);
+    font-size: 50px;
+}
+
+.mainContentTexts p {
+    color: var(--gray-300);
+    font-size: 18px;
+    padding: .75rem 0;
+    margin-bottom: .75rem;
+}
+
+.mainContentTexts a {
+    background: var(--red-500);
+    border-radius: 5px;
+
+    color: var(--white);
+
+    text-decoration: none;
+
+    padding: .5rem 2rem;
+}
+
+.mainContentTexts a:hover {
+    box-shadow: var(--red-500) 0 1px 10px;
+    transition-duration: .1s;
+}
+
+
+.mainContentImg img {
+    width: 40vw;
+}
+
+/* Content below */
+
+.sectionContent {
+    margin: 4rem 2.5rem;
+    padding: 1rem;
+}
+
+.sectionContentTitle h2 {
+    color: var(--gray-400);
+    font-size: 38px;
+}
+
+.sectionContentTitle span {
+    color: var(--red-500);
+}
+
+.sectionContentDivs {
+    display: flex;
+    margin-top: 5rem; 
+}
+
+.sectionDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icons {
+    color: var(--red-500);
+}
+
+.sectionDivs h3 {
+    color: var(--gray-400);
+    padding: 1rem;
+}
+
+.sectionDivs p {
+    color: var(--gray-400);
+    text-align: center;
+    font-size: 14px;
+    padding: 0 1rem;
+
+}
+
+.sectionButton{
+    text-align: center;
+    margin: 6rem;
+}
+
+.sectionButton a {
+    background: var(--red-500);
+    border-radius: 5px;
+
+    color: var(--white);
+
+    text-decoration: none;
+
+    padding: .5rem 2rem;
+}
+
+.sectionButton a:hover {
+    box-shadow: var(--red-500) 0 1px 10px;
+    transition-duration: .1s;
+}

@@ -1,0 +1,44 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin: 1rem;
+}
+
+.headerContainerImg img {
+    width: 15vw;
+}
+
+.headerMenuLink a{
+    color: var(--gray-500);
+    
+    font-size: 14px ;
+    text-decoration: none;
+
+    padding: 1.625rem;
+}
+
+.headerMenuLink a:hover{
+    color: var(--red-500);
+    text-decoration: underline;
+    transition: color 200ms ease-in-out;
+}
+
+.headerContact a {
+    border: 2px solid var(--red-500);
+    border-radius:5px;
+    color: var(--red-500);
+
+    font-size: 14px;
+
+    padding: .5rem 2rem;
+
+    text-decoration: none;
+}
+
+.headerContact a:hover{
+    color: var(--white);
+    background: var(--red-500);
+    transition: color 700ms ease-in-out, background 700ms ease-in-out;
+}
