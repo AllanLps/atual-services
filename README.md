@@ -4,4 +4,4 @@ This project, my debut as a freelancer! I'm currently developing a landing page 
 
 I welcome any feedback or suggestions 😊
 
-See you later. O/
+See you later. o/
